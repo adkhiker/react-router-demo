@@ -14,6 +14,7 @@ const HomePage = props => {
 };
 
 const TopicsList = props => {
+  console.log(props);
   return (
     <div>
       <h1>TOPIC LIST PAGE</h1>
@@ -25,6 +26,7 @@ const TopicsList = props => {
 };
 
 const TopicDetail = props => {
+  console.log(props);
   return (
     <div>
       <h1>TOPIC DETAIL PAGE: {props.match.params.topicId}</h1>
